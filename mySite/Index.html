@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='UFT-8'>
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='css/style.css'>
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+</head>
+<body>
+ <div class="container-600">
+		<form action="#" style="margin-top: 115px">
+			<button type="button" class="btn btn-info"><span class="white">Pay with PayPal</span></button>
+			<div class="row mb-4 mt-4">
+				<div class="col-md-4">
+					<hr />
+				</div>
+				<div class="col-md-4 text-center">
+					<p>Or pay with card</p>
+				</div>
+				<div class="col-md-4">
+					<hr />
+				</div>
+			</div>
+			<label for="Email1" class="form-label mb-3"><span class="bold-grey">Email</span></label>
+    	<input type="email" style="height: 40px" class="form-control" id="Email1" aria-describedby="emailHelp">
+			<label for="card-number" style="margin-top: 32px" class="form-label mb-3"><span class="bold-grey">Card number</span></label>
+			<div class="card-number">
+				<input type="number" maxlength="16" placeholder="1234 1234 1234 1234" style="height: 40px" class="form-control" id="card-number">
+				<img src="photos/Cards.svg" alt="card" class="cards">
+				<div class="input-group">
+					<input type="date" placeholder="MM/YY" aria-label="Дата" style="height: 40px"class="form-control">
+					<input type="password" placeholder="CVC" maxlength="3" aria-label="CVC" style="height: 40px" class="form-control">
+					<img src="photos/CVC Card.svg" alt="card" class="cards">
+				</div>
+			</div>
+			<label for="name-on-card" style="margin-top: 32px" class="form-label mb-3"><span class="bold-grey">Name on card</span></label>
+    	<input type="text" style="height: 40px" class="form-control" id="name-on-card">
+			<label for="country" style="margin-top: 32px" class="form-label mb-3"><span class="bold-grey">Courty or region</span></label>
+    	<input type="text" style="height: 40px" value="United States"  class="form-control" id="country">
+			<input type="text" style="height: 40px;" value="ZIP" class="form-control" id="country">
+			<button type="button" class="btn btn-info" style="margin-top: 32px"> <span class="white">Pay $42.00</span></button>
+		</form>
+ </div>
+</body>
+</html>	

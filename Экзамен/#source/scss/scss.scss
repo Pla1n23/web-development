@@ -1,0 +1,58 @@
+@import "_nullstyle.scss";
+._container{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header{
+  &__container{
+    height: 147px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+  &__buttons{
+    border: 1px solid #DA5D1A;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    background-color:#fff;
+    color:#DA5D1A;
+  }
+}
+.menu{
+  &__list{
+    display: flex;
+    li:not(:last-child){
+      margin: 0px 44px 0px 0px;
+    }
+  }
+  &__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.9;
+}
+}
+.main{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 30px;
+  &__section-2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 15px;
+  }
+}
+.section-2{
+  &__2-photo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+  }
+}
