@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+}
+/*Кнопка*/
+button{
+	background-color: #01996D;
+	height: 51px;
+	width: 183px;
+	border-radius: 4px;
+	padding: 13px, 50px, 13px, 50px;
+	color: white;
+	font-size: 15px;
+    border: none;
+    font-family: 'Lato-Regular'
+}
+.black{
+    color:black;
+    font-family: 'Lato-Regular'
+}
+.white{
+    color:white;
+    font-family: 'Lato-Bold';
+}
+/*Контейнер для контента*/
+.container-1400 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/*Голова*/
+.d-flex {
+    font-size: 20px;
+    height: 85px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    margin-right: 283px;
+}
+.header-logo {
+    margin-right: 152px;
+}
+.nav-item{
+    text-decoration:none;
+    font-size: 20px;
+}
+.nav-item:not(:last-child) {
+    margin-right: 72px;
+}
+.header-buttons {
+    width: 277px;
+    height: 51px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.signin{
+    font-family: 'Lato-Regular'
+}
+/*Первая часть*/
+.section-1 {
+    padding-top: 200px;
+    background-image: url('main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 30%;
+    height: 895px;
+}
+.section-wrapper-1{
+    display: flex;
+    flex-direction: column;
+}
+.section-wrapper-1-head{
+    width: 440px;
+    height: 148px;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996D;
+    font-family: 'georgiabold';
+}
+.section-wrapper-1-main{
+    width: 420px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 28px;
+    margin-bottom: 47px;
+    font-family: 'Lato-Regular'
+}
+/*Вторая часть*/
+.section-2{
+    padding-top: 200px;
+    height: 1400px;
+}
+.section-wrapper-2{
+    height: 1175px;
+}
+.section-wrapper-2-How-it-works{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    font-family: 'Lato-Bold';
+}
+.section-wrapper-2-head{
+    display: flex;
+    justify-content: space-between;
+}
+.section-wrapper-2-head1{
+    font-size: 50px;
+    width: 584px;
+    height: 157px;
+    color:#01996D;
+    font-family: 'georgiabold';
+}
+.section-wrapper-2-head2{
+    width: 649px;
+    height: 134px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Lato-Light';
+}
+.section-wrapper-2-three-sections{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.section{
+    font-weight: 500;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    width: 390px;
+    height: 900px;
+}
+.section-header{
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    position: relative;
+    font-family: 'georgiabold';
+}
+.section-text{
+    font-family: 'Lato-Light';
+}
+.background-number {
+    position: absolute;
+    font-size: 150px;
+    z-index: -3;
+    color:#01996D33;
+    top: -40px;
+    left: 40px;
+    font-family: 'georgia';
+}
+/*Третья часть*/
+.section-3{
+    background-color:  #245852;
+    height: 700px;
+    padding-top: 300px;
+}
+.section-wrapper-3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-wrapper-3-head{
+    font-size: 50px;
+    color: white;
+    width: 580px;
+    height: 158px;
+    font-family: 'georgiabold';
+}
+.section-wrapper-3-main{
+    font-size: 25px;
+    color: white;
+    width: 570px;
+    height: 39px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Lato-Bold';
+}
+/*Четвертая часть*/
+.section-4{
+    height: 800px;
+    padding-top: 100px;
+}
+.section-wrapper-4{
+    display: flex;
+    justify-content: space-between;
+}
+.section-wrapper-4-two-photos{
+    position: relative;
+    height: 800px;
+    width: 800px;
+}
+.first-photo{
+    position: absolute;
+    left: 60px;
+}
+.sencond-photo{
+    position: absolute;
+    top: 355px;
+}
+.unifying-block{
+    width: 584px;
+    height: 413px;
+}
+.section-wrapper-4-head{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    font-family: 'Lato-Bold';
+}
+.section-wrapper-4-main1{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 157%;
+    color: #01996D;
+    font-family: 'georgiabold';
+}
+.section-wrapper-4-main2{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Lato-Regular'
+}
+/*Пятая часть*/
+.section-5{
+    background-color:  #245852;
+    height: 500px;
+    padding-top: 100px;
+}
+.section-wrapper-5-nav-list{
+    list-style: none;
+    width: 129px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 40px;
+    font-family: 'AvenirNextLTPro-Demi';
+    font-weight: bold;
+}
